@@ -1,0 +1,174 @@
+* {
+	box-sizing: border-box;
+}
+
+#wrapper {
+	display: block;
+	background-color: gainsboro;
+	margin: 0px auto;
+	width: 1000px;
+}
+
+#header {
+	padding: 10px 30px 10px 30px;
+}
+
+#name {
+	display: inline-block;
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#tagLine {
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 388px;
+}
+
+#content {
+	display: block;
+	background: radial-gradient(dimgrey, darkmagenta);
+	padding: 30px;
+}
+
+.profile {
+	display: inline-block;
+	width: 45%;
+	height: 280px;
+	border: silver 3px solid;
+	margin-right: 12px;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#aboutMe {
+	display: inline-block;
+	width: 52%;
+	height: 280px;
+	margin-left: 12px;
+	background-color: gainsboro;
+	vertical-align: top;
+	font-family: Arial, sans-serif;
+}
+
+#aboutMe p {
+	font-size: 14px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.topBanner {
+	background: linear-gradient(silver, grey, silver);
+	font-family: Arial, sans-serif;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.topBanner p {
+	color: white;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.sites {
+	display: inline-block;
+	width: 31%;
+	background-color: gainsboro;
+	vertical-align: top;
+	margin-top: 30px;
+}
+
+.para {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+}
+
+#middle {
+	margin-right: 3%;
+	margin-left: 3%;
+	vertical-align: top;
+}
+
+.siteOverview {
+	height: 160px;
+}
+
+.midBanner {
+	background-color: grey;
+	background: linear-gradient(silver, grey, silver);
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.midBanner p{
+	color: white;
+	margin-left: 10px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
+
+.icon {
+	margin: 20px;
+}
+
+.icon img {
+	height: 40px;
+	width: 40px;
+	margin: 3px;
+}
+
+.button {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.button p {
+	display: inline;
+	font-size: 12px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: seagreen;
+	color: white;
+	font-family: Arial, sans-serif;
+	padding: 5px;
+}
+
+#contact p {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+#social {
+	display: block;
+	text-align: center;
+	vertical-align: center;
+	margin-top: 15px;
+	padding-bottom: 10px;
+}
+
+#social a {
+	display: inline-block;
+	vertical-align: center;
+}
+
+.iconSocial {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	vertical-align: center;
+}
+
